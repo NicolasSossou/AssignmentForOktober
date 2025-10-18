@@ -46,7 +46,7 @@ while (true)
 
         case "2":
             var products = productService.GetAllProducts();
-            Console.WriteLine("\n--- Product List ---");
+            Console.WriteLine("--- Product List ---");
             foreach (var p in products)
             {
                 Console.WriteLine($"ID: {p.Id} | Name: {p.ProductTitle} | Price: {p.ProductPrice} SEK");
@@ -72,7 +72,7 @@ while (true)
             break;
     }
 
-    Console.WriteLine("\nPress Enter to continue...");
+    Console.WriteLine("Press Enter to continue...");
     Console.ReadLine();
 }
 

@@ -5,7 +5,7 @@ public class FileService
 {
     private readonly string _filePath;
 
-    public FileService(string filePath = "products.json") // Defaultvärde
+    public FileService(string filePath = "products.json") 
     {
         _filePath = filePath;
     }
